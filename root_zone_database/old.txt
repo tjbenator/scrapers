@@ -1,1 +1,0 @@
-loader.add_xpath('admin_contact', '//h2[contains(text(), "Administrative Contact")]/following-sibling::b[1]/following-sibling::text()[1]')
