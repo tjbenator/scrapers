@@ -1,8 +1,8 @@
 import scrapy
 
 
-class VisitsageSpider(scrapy.Spider):
-    name = "visitsage"
+class EventsSpider(scrapy.Spider):
+    name = "Sage Center Events"
     allowed_domains = ["visitsage.com"]
     start_urls = ["https://visitsage.com/"]
 

@@ -11,6 +11,3 @@ class SageCenterItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
-class Calendar_Event(scrapy.Item):
-    date_time = scrapy.Field()
-    title = scrapy.Field()
